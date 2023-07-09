@@ -1,9 +1,9 @@
 <template>
 
   <UILoader />
-  <section class="grid grid-cols-2 h-screen">
+  <section class="grid grid-cols-12 h-screen">
 
-    <div class="background-style">
+    <div class="background-style col-span-7">
       <div class="bg-neutral-950 w-full h-full bg-opacity-10">
         <div class="w-full h-full flex flex-col justify-center items-center">
           <div class="w-[30rem] h-[30rem] rounded-full bg-white bg-opacity-90 shadow-2xl">
@@ -13,8 +13,8 @@
 
       </div>
     </div>
-    <div class="flex flex-col justify-center items-center w-full h-full">
-      <div class="flex flex-col justify-start">
+    <div class="col-span-5 flex flex-col justify-center items-center mb-7">
+      <div class="flex flex-col justify-center items-center">
         <div class="flex flex-row justify-center items-center gap-12 mb-5">
           <img src="/assets/img/logo-ie-header.png" alt="ie logo" class="w-[50px] h-[50px]" />
           <img src="/assets/img/logo.png" alt="ie logo" class="w-fit h-fit max-w-[40px] max-h-[60px]"  />
@@ -28,14 +28,14 @@
         </h1>
       </div>
 
-      <div class="mt-6">
+      <div class="mt-6 ">
         <p>Don't have an account? <a href="/register" class="underline underline-offset-2 font-semibold">Create an account</a></p>
         <p>It takes less than a minute.</p>
       </div>
 
       <div class="mt-6">
         <form>
-          <div class="flex flex-col justify-center align-start">
+          <div class="flex flex-col justify-center align-center">
             <label for="email">Email</label>
             <input
               class="w-[20rem] border px-2 py-1 m-1 focus:outline focus:outline-emerald-400 focus:rounded focus:outline-2"

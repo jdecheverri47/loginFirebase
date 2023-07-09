@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   devtools: { enabled: true },
-  modules: ['@formkit/nuxt'],
+  modules: ['@formkit/nuxt', 'nuxt-headlessui'],
   postcss: {
     plugins: {
       tailwindcss: {},

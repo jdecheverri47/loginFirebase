@@ -10,7 +10,6 @@
             <img src="/assets/img/logo.png" class="mx-auto mt-[4rem]" />
           </div>
         </div>
-
       </div>
     </div>
     <div class="col-span-5 flex flex-col justify-center items-center mb-7">
